@@ -12,14 +12,15 @@ jobs:
     outputs:
       items: ${{ steps.trigger.outputs.items }}
     steps:
-      - uses: actionslaw/actionslaw-action@v1
+      - uses: actionslaw/actionslaw-action@v1.1
         id: trigger
         with:
           on: '
             {
               "activitypub": {
                 "user": "grislyeye",
-                "host": "toot.io"
+                "host": "toot.io",
+                "cutoff": "480"
               }
             }'
 
