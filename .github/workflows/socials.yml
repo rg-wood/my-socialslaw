@@ -114,7 +114,7 @@ jobs:
             cat ./atposts.txt  >> $GITHUB_OUTPUT
           fi
 
-      - uses: rg-wood/bluesky-post-action@v1.1.2
+      - uses: rg-wood/bluesky-post-action@v1.1.3
         id: post
         with:
           text: ${{ matrix.items.message }}
