@@ -70,7 +70,7 @@ jobs:
             cat ./tweets.txt  >> $GITHUB_OUTPUT
           fi
 
-      - uses: rg-wood/send-tweet-action@v1.1
+      - uses: rg-wood/send-tweet-action@v1.1.1
         id: send
         with:
           status: ${{ matrix.items.message }}
@@ -114,7 +114,7 @@ jobs:
             cat ./atposts.txt  >> $GITHUB_OUTPUT
           fi
 
-      - uses: rg-wood/bluesky-post-action@v1.1
+      - uses: rg-wood/bluesky-post-action@v1.1.1
         id: post
         with:
           text: ${{ matrix.items.message }}
