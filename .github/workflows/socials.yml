@@ -19,7 +19,7 @@ jobs:
             {
               "activitypub": {
                 "user": "grislyeye",
-                "host": "toot.io",
+                "host": "indieweb.social",
                 "cutoff": "480",
                 "removeTrailingHashtags": "true"
               }
