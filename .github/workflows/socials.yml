@@ -18,8 +18,8 @@ jobs:
           on: '
             {
               "activitypub": {
-                "id": "111929524183766831",
-                "host": "indieweb.social",
+                "id": "112783997923911898",
+                "host": "c.im",
                 "cutoff": "480",
                 "removeTrailingHashtags": "true"
               }
